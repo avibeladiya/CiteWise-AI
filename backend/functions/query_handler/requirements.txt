@@ -1,0 +1,1 @@
+# No extra dependencies – boto3 comes from the shared layer

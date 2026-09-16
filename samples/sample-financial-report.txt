@@ -1,0 +1,99 @@
+Acme Technologies Inc.
+Q3 2026 Quarterly Financial Report
+Fiscal Quarter Ended September 30, 2026
+==========================================
+
+Page 1: Executive Summary
+---------------------------
+Acme Technologies delivered strong third-quarter results, with total revenue of $4.2
+billion representing 23% year-over-year growth. This performance exceeded analyst
+consensus estimates of $3.9 billion and reflects continued momentum across all three
+of our business segments: Cloud Services, Enterprise Software, and Professional Services.
+
+Operating income increased to $772 million, representing an operating margin of 18.4%,
+a 340 basis-point improvement compared to the year-ago quarter. This margin expansion
+reflects the successful completion of our cost optimization program initiated in Q2,
+which reduced headcount by 8% while preserving our highest-priority engineering teams.
+
+Based on these results and our visibility into Q4 pipeline, we are raising our full-year
+revenue outlook to $16.8 billion to $17.2 billion, up from our prior guidance of
+$16.0 billion to $16.5 billion.
+
+Page 2: Revenue Breakdown by Segment
+--------------------------------------
+Cloud Services remained the primary growth engine, contributing $1.8 billion in revenue,
+up 41% year-over-year. Subscription recurring revenue within Cloud Services grew 38%,
+driven by strong retention rates of 94% and net revenue retention of 118%. We added
+2,340 new Cloud Services customers during the quarter, bringing total customers to
+31,200, an increase of 28% from Q3 2025.
+
+Enterprise Software revenue reached $1.6 billion, up 11% year-over-year. License
+revenue declined modestly as customers continued transitioning from perpetual licenses
+to subscription models, while subscription and maintenance revenue grew 19%. Our
+flagship ERP platform achieved a customer satisfaction score of 87, the highest in
+company history.
+
+Professional Services revenue was $0.8 billion, up 6% year-over-year. While this
+segment carries lower margins than our software businesses, it plays a critical role
+in supporting customer adoption and driving expansion revenue in our core platforms.
+
+Page 3: Profitability and Cost Structure
+-----------------------------------------
+Gross profit for the quarter was $2.52 billion, representing a gross margin of 60.0%,
+up from 57.3% in Q3 2025. Gross margin improvement was driven primarily by Cloud
+Services, where infrastructure efficiency gains and higher utilization rates reduced
+the cost of revenue as a percentage of Cloud Services revenue from 45% to 38%.
+
+Research and development expense was $630 million (15% of revenue), up 18% year-over-year.
+We continue to invest heavily in AI-native product capabilities, with over 40% of our
+R&D headcount now focused on artificial intelligence and machine learning initiatives.
+
+Sales and marketing expense was $756 million (18% of revenue), up 8% year-over-year,
+reflecting our disciplined approach to growth investing. Sales productivity, measured
+as revenue per quota-carrying representative, improved 15% year-over-year.
+
+General and administrative expense was $378 million (9% of revenue), down from 11%
+in Q3 2025, demonstrating the leverage in our business model as revenue scales.
+
+Page 4: Balance Sheet and Cash Flow
+-------------------------------------
+We ended the quarter with $4.8 billion in cash, cash equivalents, and short-term
+investments, up from $3.9 billion at the end of Q2 2026. Cash generation remains a
+core strength of the business.
+
+Operating cash flow for the quarter was $1.05 billion, representing an operating
+cash flow margin of 25.0%. Free cash flow — operating cash flow less capital
+expenditures of $180 million — was $870 million, or 20.7% of revenue.
+
+During the quarter, we repurchased 4.2 million shares for approximately $630 million
+at an average price of $150 per share, leaving $2.4 billion remaining under our
+existing $4 billion share repurchase authorization announced in January 2026.
+
+Total debt stood at $3.6 billion, with no maturities until 2029. Our net cash position
+(cash minus total debt) improved to $1.2 billion, up from $0.4 billion at the start
+of fiscal 2026.
+
+Page 5: Risk Factors and Outlook
+----------------------------------
+Key risks to our outlook include:
+
+1. Macroeconomic uncertainty: Prolonged elevated interest rates could reduce enterprise
+   technology spending, particularly for large multi-year cloud transformation projects
+   that require significant capital commitment from customers.
+
+2. Competitive intensity: The enterprise software market continues to see increased
+   competition from both established players and AI-native startups. Maintaining our
+   technological differentiation requires continued investment in R&D.
+
+3. Concentration risk: Our top 20 customers represent approximately 35% of total
+   revenue. The loss of any large customer could have a material adverse effect on
+   our financial results.
+
+4. Regulatory and data privacy: Evolving global data privacy regulations, including
+   new AI governance frameworks being considered in multiple jurisdictions, may require
+   changes to our product architecture or limit certain use cases.
+
+For Q4 2026, we expect revenue in the range of $4.4 billion to $4.5 billion, representing
+21% to 24% year-over-year growth. We expect non-GAAP operating margin of 19.5% to 20.5%,
+reflecting continued operating leverage while maintaining investment in our strategic
+growth initiatives.

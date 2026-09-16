@@ -1,0 +1,115 @@
+Machine Learning: Foundations and Modern Techniques
+=====================================================
+A Technical Overview for Practitioners
+
+Page 1: Introduction
+---------------------
+Machine learning is a subfield of artificial intelligence that enables systems to learn
+from data and improve their performance on specific tasks without being explicitly
+programmed. Rather than following hand-crafted rules, machine learning algorithms
+identify patterns in data and use those patterns to make decisions or predictions.
+
+The field was formally established in the late 1950s, with Arthur Samuel's checkers
+program being one of the earliest examples of a self-improving system. Since then,
+advances in computing power, data availability, and algorithmic innovation have
+transformed machine learning from a niche research area into a foundational technology
+powering products used by billions of people daily.
+
+Page 2: Supervised Learning
+----------------------------
+Supervised learning is the most widely applied branch of machine learning. In supervised
+learning, a model is trained on a labeled dataset — a collection of input-output pairs
+where the correct answer is known. The model learns a mapping from inputs to outputs by
+minimizing the difference between its predictions and the true labels.
+
+Common supervised learning tasks include:
+- Classification: predicting a discrete category (e.g., spam vs. not spam)
+- Regression: predicting a continuous value (e.g., house price)
+- Sequence labeling: assigning labels to each element of a sequence (e.g., named entity recognition)
+
+The primary challenge in supervised learning is generalization — the ability to perform
+well on unseen data, not just the training set. Techniques such as regularization,
+dropout, and cross-validation are used to prevent overfitting.
+
+Page 3: Gradient Descent and Optimization
+------------------------------------------
+Gradient descent is the core optimization algorithm used to train nearly all modern
+machine learning models. The algorithm iteratively adjusts model parameters by computing
+the gradient of a loss function with respect to each parameter and stepping in the
+direction that reduces the loss.
+
+The update rule for gradient descent is:
+    θ_new = θ_old - α × ∇L(θ)
+
+where α is the learning rate, a hyperparameter that controls the step size at each
+iteration. Choosing an appropriate learning rate is critical: too large a value causes
+the algorithm to overshoot the minimum and diverge; too small a value results in
+extremely slow convergence.
+
+Variants of gradient descent include:
+- Batch gradient descent: uses the entire training set per update
+- Stochastic gradient descent (SGD): uses a single sample per update
+- Mini-batch gradient descent: uses a small random subset per update
+
+Adaptive optimizers such as Adam, RMSProp, and AdaGrad automatically adjust the
+learning rate per parameter based on historical gradient information, and have become
+the default choice in modern deep learning practice due to their faster convergence.
+
+Page 4: Neural Networks
+------------------------
+Artificial neural networks are computational models loosely inspired by the structure
+of biological brains. A neural network consists of layers of interconnected nodes
+(neurons), where each neuron computes a weighted sum of its inputs, adds a bias term,
+and passes the result through a nonlinear activation function.
+
+The depth of a network — the number of hidden layers between input and output —
+determines its capacity to learn hierarchical representations of the data. Shallow
+networks can represent simple functions, while deep networks can represent highly
+complex, abstract patterns.
+
+Common activation functions include:
+- ReLU (Rectified Linear Unit): f(x) = max(0, x), the default choice in modern networks
+- Sigmoid: f(x) = 1 / (1 + e^(-x)), used in binary classification output layers
+- Tanh: f(x) = (e^x - e^(-x)) / (e^x + e^(-x)), centered around zero
+
+ReLU has become the dominant activation function because it avoids the vanishing
+gradient problem that plagued earlier sigmoid- and tanh-based networks, enabling
+training of very deep architectures.
+
+Page 5: The Transformer Architecture
+--------------------------------------
+The Transformer, introduced in the landmark 2017 paper "Attention Is All You Need"
+by Vaswani et al., represented a fundamental departure from recurrent architectures.
+The key innovation was the self-attention mechanism, which allows every position in
+a sequence to directly attend to every other position in constant computational depth.
+
+Self-attention computes three matrices from the input: Queries (Q), Keys (K), and
+Values (V). The attention output for each position is computed as:
+    Attention(Q, K, V) = softmax(QK^T / sqrt(d_k)) × V
+
+Multi-head attention extends this by running h parallel attention operations with
+different learned projections, allowing the model to jointly attend to information
+from different representation subspaces at different positions.
+
+The Transformer's ability to parallelize training (unlike RNNs, which must process
+sequences step-by-step) enabled training at unprecedented scale. Pre-trained models
+built on the Transformer architecture — including BERT, GPT, and their descendants —
+have achieved state-of-the-art performance across virtually every natural language
+processing task.
+
+Page 6: Retrieval-Augmented Generation
+----------------------------------------
+Retrieval-Augmented Generation (RAG) is a technique that combines a retrieval system
+with a generative language model to produce accurate, grounded responses. Instead of
+relying solely on parametric knowledge stored in model weights, RAG retrieves relevant
+documents at inference time and conditions the model's generation on that external context.
+
+The standard RAG pipeline consists of:
+1. Indexing: documents are chunked, embedded, and stored in a vector database
+2. Retrieval: the user's query is embedded and used to find the most similar chunks
+3. Generation: the retrieved chunks are provided to the language model as context
+
+RAG significantly reduces hallucination by anchoring the model's responses to
+retrieved evidence. It also allows knowledge to be updated without retraining — new
+documents simply need to be indexed. This makes RAG particularly well-suited for
+enterprise applications where documents change frequently and accuracy is paramount.

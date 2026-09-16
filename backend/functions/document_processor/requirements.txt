@@ -1,0 +1,2 @@
+# document-processor Lambda dependencies
+pypdf>=4.2.0

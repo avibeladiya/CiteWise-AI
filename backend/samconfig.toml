@@ -1,0 +1,43 @@
+# AWS SAM CLI configuration for CiteWise AI
+# Run: sam deploy --guided  (first time)
+# Run: make deploy           (subsequent deployments)
+
+version = 0.1
+
+[default]
+[default.global.parameters]
+stack_name = "citewise-ai"
+
+[default.build.parameters]
+cached     = true
+parallel   = true
+
+[default.deploy.parameters]
+stack_name         = "citewise-ai"
+resolve_s3         = true
+s3_prefix          = "citewise-ai"
+region             = "us-east-1"
+confirm_changeset  = true
+capabilities       = "CAPABILITY_IAM CAPABILITY_NAMED_IAM"
+parameter_overrides = [
+  "Stage=dev",
+  "BedrockRegion=us-east-1",
+  "CorsOrigin=*",
+]
+
+[dev.deploy.parameters]
+stack_name        = "citewise-ai-dev"
+parameter_overrides = [
+  "Stage=dev",
+  "BedrockRegion=us-east-1",
+  "CorsOrigin=*",
+]
+
+[prod.deploy.parameters]
+stack_name        = "citewise-ai-prod"
+confirm_changeset = true
+parameter_overrides = [
+  "Stage=prod",
+  "BedrockRegion=us-east-1",
+  "CorsOrigin=https://your-frontend-domain.com",
+]

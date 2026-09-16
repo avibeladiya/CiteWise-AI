@@ -1,0 +1,5 @@
+# Shared Lambda Layer dependencies
+# Installed into layers/shared/python/ by SAM build
+
+boto3>=1.34.0
+botocore>=1.34.0
