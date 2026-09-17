@@ -1,0 +1,30 @@
+# ─────────────────────────────────────────────────────────────────────────────
+#  CiteWise AI — Backend Requirements (Render deployment)
+#  Python 3.12
+# ─────────────────────────────────────────────────────────────────────────────
+
+# Web framework
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+
+# AWS SDK
+boto3==1.35.82
+botocore==1.35.82
+
+# PDF text extraction
+pypdf==4.3.1
+
+# File upload support (FastAPI multipart)
+python-multipart==0.0.17
+
+# Environment variable loading
+python-dotenv==1.0.1
+
+# HTTP validation via Pydantic (FastAPI dependency)
+pydantic==2.10.3
+
+# ─────────────────────────────────────────────────────────────────────────────
+#  NOTE: numpy is NOT required.
+#  Cosine similarity is computed in pure Python (math.sqrt + zip).
+#  This keeps the deployment image smaller and avoids binary incompatibilities.
+# ─────────────────────────────────────────────────────────────────────────────
