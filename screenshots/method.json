@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/method",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "CiteWise AI",
+      "hasCanvas": false,
+      "bodyTextLen": 2474,
+      "bodyTextHash": "a174a5f2ac3451f1b73045af564380f3ecb18b060530ca0e3d84177db71b61f6",
+      "bodyTextPrefix": "CITEWISE REVIEW VOL. 01 · GROUNDED RAG AIDLC · CITATION DESK [1]",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/method.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "CiteWise AI",
+      "hasCanvas": false,
+      "bodyTextLen": 2430,
+      "bodyTextHash": "d96e8f030496135ea56827c7893266832527bd559556181dc51737a2fc1cd3f9",
+      "bodyTextPrefix": "CITEWISE REVIEW VOL. 01 · GROUNDED RAG [1] CITEWISE Grounded Q&A",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/method-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/method.json"
+}

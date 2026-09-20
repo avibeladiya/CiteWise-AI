@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "CiteWise AI",
+      "hasCanvas": false,
+      "bodyTextLen": 2305,
+      "bodyTextHash": "a81d4f22464ced8c4f54ae2f8d6c21d492a16f08a106a34c3a5f673c1fd40342",
+      "bodyTextPrefix": "CITEWISE REVIEW VOL. 01 · GROUNDED RAG AIDLC · CITATION DESK [1]",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "CiteWise AI",
+      "hasCanvas": false,
+      "bodyTextLen": 2245,
+      "bodyTextHash": "4b49eddd3c648f7f29065e33eae52e66021043bc6061151d3b945d7cf361c508",
+      "bodyTextPrefix": "CITEWISE REVIEW VOL. 01 · GROUNDED RAG [1] CITEWISE Grounded Q&A",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}

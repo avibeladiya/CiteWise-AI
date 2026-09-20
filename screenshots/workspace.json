@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/workspace",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "CiteWise AI",
+      "hasCanvas": false,
+      "bodyTextLen": 519,
+      "bodyTextHash": "bb6392d7f06e76c08d19bae1d5767aff442e41cec7745841ba05ef4335c81bae",
+      "bodyTextPrefix": "[1] CITEWISE Home Method LIBRARY Documents No documents yet. Ind",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/workspace.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "CiteWise AI",
+      "hasCanvas": false,
+      "bodyTextLen": 507,
+      "bodyTextHash": "972c51bc2af3f94f1c69e69c29be72d64e07b78aa888987c724dac845f9b1a14",
+      "bodyTextPrefix": "[1] CITEWISE Open a document Index a specimen, then ask. Every a",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/workspace-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/workspace.json"
+}

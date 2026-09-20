@@ -1,103 +1,16 @@
-# ─────────────────────────────────────────────────────────────
-#  CiteWise AI  —  .gitignore
-# ─────────────────────────────────────────────────────────────
-
-# ── Node / Frontend ───────────────────────────────────────────
-.vercel/
-.render/
-node_modules/
-dist/
-.vite/
-*.tsbuildinfo
-
-# ── Python / Backend ──────────────────────────────────────────
-__pycache__/
-*.py[cod]
-*.pyo
-*.pyd
-.Python
-*.egg-info/
-.eggs/
-.venv/
-venv/
-env/
-.env/
-pip-log.txt
-pip-delete-this-directory.txt
-
-# ── Environment variables (NEVER commit secrets) ──────────────
+node_modules
+dist
+.output
+.nitro
+.tanstack
+.vercel
 .env
 .env.local
-.env.*.local
-.env.development.local
-.env.production.local
-!.env.example
-
-# ── AWS SAM ───────────────────────────────────────────────────
-.aws-sam/
-packaged.yaml
-samconfig.toml.bak
-
-# ── AWS credentials (extra safety) ───────────────────────────
-.aws/
-aws-exports.js
-amplify/
-**/aws-exports.js
-**/.graphqlconfig.yml
-
-# ── Logs ──────────────────────────────────────────────────────
-*.log
-logs/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
-
-# ── Testing / Coverage ────────────────────────────────────────
-coverage/
-.nyc_output/
-*.lcov
-jest_results/
-playwright-report/
-test-results/
-
-# ── OS files ──────────────────────────────────────────────────
+*.pyc
+__pycache__
+.venv
+backend/.venv
 .DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-desktop.ini
-
-# ── IDE / Editors ─────────────────────────────────────────────
-.vscode/settings.json
-.vscode/launch.json
-.idea/
-*.suo
-*.user
-*.userosscache
-*.sln.docstates
-*.swp
-*.swo
-*~
-.project
-.classpath
-
-# ── Dependency lock files (keep package-lock, ignore others) ──
-yarn.lock
-pnpm-lock.yaml
-
-# ── Build artifacts ───────────────────────────────────────────
-build/
-out/
-*.zip
-*.tar.gz
-
-# ── Sensitive / large sample files ───────────────────────────
-samples/*.pdf
-# Keep sample .txt files (small, useful for testing)
-!samples/*.txt
-!samples/README.md
+/tmp
+*.log
+.grok/og-pending
