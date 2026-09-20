@@ -95,7 +95,7 @@ Connect your repo and deploy. The build command is `npm run build`. The Vite con
 Use the included Blueprint in `render.yaml`, or deploy manually:
 - **Root directory:** `backend`
 - **Build command:** `pip install -r requirements.txt`
-- **Start command:** `uvicorn main:app --host 0.0.0.0 --port $PORT`
+- **Start command:** `python -m uvicorn main:app --host 0.0.0.0 --port $PORT`
 - **Env vars:** `XAI_API_KEY`, `CORS_ORIGINS=https://your-app.vercel.app`
 
 ## 🏆 AI-DLC Provenance
